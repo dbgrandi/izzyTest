@@ -1,0 +1,10 @@
+# Use the latest macOS, mainly so
+# we get Swift set up manually, otherwise we can use linux
+# with swiftenv to get set up quickly, we do nothing macOS
+# specific in the Dangerfile.
+#
+os: linux
+
+script:
+  - ./tests
+
